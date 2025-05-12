@@ -1,0 +1,154 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      145deg,
+      rgba(12, 2, 71, 0.9),
+      rgba(48, 1, 34, 0.9)
+    ),
+    url("../assets/main_9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+.dashboard-wrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  width: 100%;
+  height: 100%;
+}
+
+.manage-course,
+.course-form {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      145deg,
+      rgba(12, 2, 71, 0.9),
+      rgba(48, 1, 34, 0.9)
+    ),
+    url("../assets/main_9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20% 10%;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  padding: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8),
+    -2px -2px 2px rgba(129, 125, 125, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box:hover {
+  background: rgba(59, 1, 42, 0.418);
+}
+
+.dashboard-wrapper .add-course {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  background: linear-gradient(45deg, rgb(29, 2, 102), rgb(196, 4, 132));
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 3px;
+  cursor: pointer;
+  display: none;
+}
+.dashboard-wrapper .add-course img {
+  width: 50px;
+  height: 50px;
+}
+.dashboard-wrapper form {
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.dashboard-wrapper h2 {
+  margin-bottom: 40px;
+  border-bottom: 4px solid yellow;
+  text-align: center;
+  padding-bottom: 10px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+form button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+  color: orangered;
+  background: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* MANAGE COURSES */
+.manage-course {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      145deg,
+      rgba(12, 2, 71, 0.9),
+      rgba(48, 1, 34, 0.9)
+    ),
+    url("../assets/main_9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 10%;
+}
+.manage-course-wrapper {
+  width: 100%;
+  overflow: scroll hidden;
+  scrollbar-width: none;
+}
+.table {
+  width: 100%;
+}
+.table,
+.table tr,
+.table td {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+.table thead tr td {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: rgb(43, 2, 109);
+  padding: 10px;
+}
+.table tr td {
+  padding: 5px;
+}
+
+.table .controls {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

@@ -1,0 +1,71 @@
+.search-box {
+  margin-top: 50px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+.search-term {
+  padding: 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* PDF STYLING */
+.pdf-files-not-found {
+  font-size: 2rem;
+}
+.pdf-files {
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.pdf-data-wrapper {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: -5px 5px 8px rgba(9, 10, 12, 0.3), 0 -5px 8px rgba(9, 9, 14, 0.3);
+
+  p {
+    padding-bottom: 3px;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+.pdf-data-wrapper:hover,
+.pdf-data-wrapper:focus {
+  background: #000;
+}
+.pdf-icon {
+  width: 100px;
+  height: 100%;
+}
+.pdf-btn {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: seagreen;
+  color: whitesmoke;
+  font-weight: 600;
+  text-decoration: none;
+}
+.pdf-btn:hover,
+.pdf-btn:focus {
+  background: #0f0f0f;
+  color: #fff;
+}

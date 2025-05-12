@@ -1,0 +1,39 @@
+.study-materials {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(35deg, rgba(46, 2, 46, 0.9), rgba(13, 1, 53, 0.6)),
+    url("../assets/main_9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.study-material-s button {
+  outline: none;
+  border: none;
+  background: rgb(88, 1, 55);
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 20px 30px;
+  box-shadow: 0 3px 4px 1px rgba(48, 30, 48, 0.3);
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.search-bar {
+  border-radius: 30px;
+  width: 100%;
+  border: 2px solid aquamarine;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: aquamarine;
+}

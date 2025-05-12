@@ -1,0 +1,22 @@
+.setting {
+  width: 100%;
+  padding: 20px;
+  background: white;
+  margin-bottom: 60px;
+}
+.setting-wrapper .admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+.setting-wrapper .admin .admin-info {
+  border-left: 4px solid purple;
+  padding-left: 10px;
+}
+.setting img {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  background: #212429;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+  color: whitesmoke;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.list-menu {
+  width: fit-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 30px;
+  list-style: none;
+  gap: 10px;
+}
+.list-item {
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #212429;
+  text-decoration: none;
+}
+.list-item:hover {
+  color: rgb(159, 207, 180);
+}
+.list-item.active,
+span {
+  color: seagreen;
+}
+
+.sign-out {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: whitesmoke;
+  text-decoration: none;
+  background: orangered;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,52 @@
+.about {
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(35deg, rgba(46, 2, 46, 0.9), rgba(13, 1, 53, 0.6)),
+    url("../assets/main_9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 10%;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-us {
+  padding: 20px 20px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  border: 3px solid #cccccc3b;
+}
+
+.testimonies {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.testimonies h1 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #fff;
+}
+
+.testimonies-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.testimonies-feed {
+  border: 3px solid #cccccc13;
+  border-radius: 30px 100px 30px 0px;
+  padding: 20px 20px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.testimonies-feed img {
+  border-radius: 30px 30px 30px 0px;
+}
